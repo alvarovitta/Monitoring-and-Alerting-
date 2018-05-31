@@ -1,0 +1,58 @@
+Introduction 
+
+ 
+
+Traditional monitoring and alerting involved a siloed approach for each infrastructure components such as storage, networking, and compute. These approaches have evolved towards a comprehensive application and service telemetry that can be leveraged for more than monitoring and enable application optimization, discover user insights, and drive business value. 
+
+
+This telemetry based approach provides: 
+
+ 
+- Visibility: foundational set of metrics, alerts, and notifications across core Azure services  
+- Insight: analytics and diagnostics across applications, compute, storage, and network resources, including anomaly detection and proactive alerting  
+- Optimization: Understand how users are engaging with your applications, identify sticking points, develop cohorts, and optimize business impact  
+
+ 
+
+## Audience 
+
+
+Use this guide to design, set up and configure Azure monitoring for your application or service.  
+
+ 
+The content in this guide is appropriate for use by (but not strictly limited to) individuals with the following areas of responsibility: 
+
+
+- Network Architects 
+- Enterprise Architects  
+- IT Architects  
+- Systems/Network Administrators 
+- CISO 
+- Security Architect 
+
+  
+
+## Sections 
+
+ 
+
+Monitoring in Azure requires a composite view of the underlying infrastructure, third party dependencies, and application or services.  This is achieved through the following layered approach:  
+
+ 
+1. Share Capabilities (Azure Alerts, Dashboards, and Metrics Explorer) 
+    - Azure service telemetry for monitoring and near real-time alerting. 
+2. Azure Core Monitoring (Azure Monitor, Azure Advisor, Azure Health) 
+    - Consolidated and indexed telemetry repository for monitoring, reporting, and alerting 
+3. Azure Infrastructure Monitoring ( OMS, Service Map, Log Analytics, and Container Monitoring, ) 
+4. Azure Application Monitoring (Application Insights) 
+    - Application level telemetry 
+5. PowerBI: Consolidated reporting for trending and reporting distribution to non-technical audiences
+
+![Monitoring](https://github.com/alvarovitta/Monitoring-and-Alerting-/blob/master/_images/Monitoring.png)
+
+## Next Steps
+
+1. Shared Capabilities 
+2. Azure Core Monitoring 
+3. Azure Infrastructure Monitoring 
+4. Azure Application Monitoring 
