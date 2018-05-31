@@ -1,0 +1,40 @@
+Overview 
+
+ 
+
+Microsoft PowerBI is a suite of business analytics tools supporting data analysis and visualization. Azure resource and application telemetry from Log Analytics and Application Insights can be exported to PowerBI dataset and automatically refreshed to publish timely operational and business reporting. 
+
+ 
+
+##Guidance 
+
+Leverage PowerBI to support the following scenarios: 
+
+- The required report combines datasets from sources beyond Azure 
+- The report audience does not have access to the Azure portal 
+- When the report requires historical data beyond the Log Analytics or application Insights data retention period 
+- When the report requires statistical analysis  
+- When the data are complex such as geospacial. 
+
+ 
+
+
+## Procedure 
+
+**1. Activity Log to PowerBI** 
+- [Azure Activity Log Analytics](https://appsource.microsoft.com/en-us/product/web-apps/microsoft-powerbi.pbisolntemplate_azure_activity_log?tab=Overview)
+
+**2. Azure Log Analytics and PowerBI** 
+- [Import Azure Log Analytics data into Power BI](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-powerbi) 
+
+**3. Application Insights and PowerBI** 
+- [Connect to Application Insights with Power BI](https://docs.microsoft.com/en-us/power-bi/service-connect-to-application-insights) 
+
+**4. D365 PowerBI** 
+
+**5. Configure PowerBI Adapter for CRM** 
+- [Download the PowerBI Content Packs](https://technet.microsoft.com/en-us/library/dn708055.aspx#Anchor_1)
+- [Embed PowerBI Visualizations in Dashboards](https://technet.microsoft.com/en-us/library/dn708055.aspx#Anchor_2) 
+- [Connect with PowerBI Desktop](https://technet.microsoft.com/en-us/library/dn708055.aspx#Anchor_3) 
+
+**6. O365 to PowerBI** 
